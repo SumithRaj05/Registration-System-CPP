@@ -5,23 +5,23 @@ So in order to use JSON format clone https://github.com/nlohmann/json.git reposi
 
 run file by command:
 ./index
-<br><br>
-![](./ss/scr1.png?raw=true)
 <br>
 <h1>SignUp option</h1>
-<br>
-<img src="./ss/scr2.png"/>
+<img src="./ss/scr1.png"/>
 <br>
 <h1>Profile of user</h1>
 <br>
-<img src="./ss/scr3.png"/>
+<img src="./ss/scr2.png"/>
 <br>
 <h1>Edit profile option</h1>
 <br>
-<img src="./ss/scr4.png"/>
+<img src="./ss/scr3.png"/>
 <br>
 <h1>Updated Profile</h1>
 <br>
-<img src="./ss/db.png"/>
+<img src="./ss/scr4.png"/>
 <br>
 <h1>Json format of the data stored</h1>
+<br>
+<img src="./ss/db.png"/>
+<br>
