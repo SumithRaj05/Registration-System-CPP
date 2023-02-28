@@ -1,7 +1,9 @@
 This is a simple project to learn how DataBase actually works.
 In this project, JSON format is to be used in order to store the data.
 
-So in order to use JSON format clone https://github.com/nlohmann/json.git repository and use json/single_include/nlohmann header files
+So in order to use JSON format clone https://github.com/nlohmann/json.git repository 
+by command: <bold style="background:grey">git clone https://github.com/nlohmann/json.git</bold>
+and copy json/single_include/nlohmann header files in same directory as database.hpp file.
 
 run file by command:
 ./index

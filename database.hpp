@@ -4,7 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include <nlohmann/json.hpp>
+#include "nlohmann/json.hpp"
 
 using json = nlohmann::json;
 
@@ -105,7 +105,7 @@ class DataBase{
             return user;
         }
 
-        // time complexity is O(n*log n) for sort & binarySearch functions
+        // time complexity is O(n+log n) for sort & binarySearch functions
         // displays the data on console in json formatof required user
 
         json Read(std::string key, std::string value){
@@ -127,7 +127,7 @@ class DataBase{
             return user;
         }
 
-        // time complexity is O(n*log n) for sort & binarySearch functions
+        // time complexity is O(n+log n) for sort & binarySearch functions
         // updates the data by finding the given {key: value} pairs as arguments
 
         json Update(std::string key, std::string value){
@@ -173,7 +173,7 @@ class DataBase{
             return user;
         }
 
-        // time complexity is O(n*log n) for sort and binarySearch function
+        // time complexity is O(n+log n) for sort and binarySearch function
         // deletes the data based on given {key: value} pair as arguments
 
         void Delete(std::string key, std::string value){

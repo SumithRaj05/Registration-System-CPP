@@ -23,7 +23,12 @@ void Profile(DataBase &data, json &UserData){
         cout<<i<<" -> "<<UserData[i]<<endl;
     }
     cout<<"\n---------------------------\n";
-    cout<<"\n_____Settings_____\n1. Edit Profile\n2. LogOut\n3. Delete Account\n4. Exit\n__________________\n>> ";
+    cout<<"\n_____Settings_____
+            \n1. Edit Profile
+            \n2. LogOut
+            \n3. Delete Account
+            \n4. Exit
+            \n__________________\n>> ";
     cin>>choice;
     switch(choice){
         case 1:
@@ -35,8 +40,8 @@ void Profile(DataBase &data, json &UserData){
             cout<<"\n***Logged Out***\n";
             break;
         case 3:
-            cout<<"\n***Deleted Account***\n";
             DeleteUser(data, UserData);
+            cout<<"\n***Deleted Account***\n";
             break;
         case 4:
             return;
@@ -96,7 +101,10 @@ int main(){
     DataBase users(schema);
     
     int choice;
-    cout<<"Choose the option:\n1. SignUp\n2. LogIn\n>>> ";
+    cout<<"Choose the option:
+            \n1. SignUp
+            \n2. LogIn
+            \n>>> ";
     cin>>choice;
 
     switch(choice){
